@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@100;200;300;400;600;700&family=Sora:wght@400;700&family=Spline+Sans:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', sans-serif;
+}
+/* Neon colors for left icons */
+.neon-left:hover {
+  color: #ff4500; /* Orange Red */
+  text-shadow: 0 0 5px #ff4500, 0 0 10px #ff4500, 0 0 15px #ff4500,
+    0 0 20px #ff4500, 0 0 35px #ff4500;
+}
+
+/* Neon colors for right icons */
+.neon-right:hover {
+  color: #00ff7f; /* Spring Green */
+  text-shadow: 0 0 5px #00ff7f, 0 0 10px #00ff7f, 0 0 15px #00ff7f,
+    0 0 20px #00ff7f, 0 0 35px #00ff7f;
+}
