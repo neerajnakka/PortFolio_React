@@ -1,6 +1,6 @@
 import qrispyImage from '../src/assets/projects/qrispy.png';
 import kreativesImage from '../src/assets/projects/kreatives.png';
-
+import portfolio from '../src/assets/projects/po.png';
 export const HERO_CONTENT = `As a passionate full-stack developer, I thrive on crafting robust and scalable web applications. With a solid foundation in both front-end and back-end technologies, including React, Next.js, Node.js, Express, MySQL, and MongoDB, I am dedicated to creating innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am Neeraj Chandra Nakka, a recent Computer Science graduate from CVR College of Engineering in Hyderabad, India. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. When I'm not coding, you can find me immersed in novels, listening to music, or indulging in my passion for gardening. I believe in the power of collaboration and enjoy solving complex problems to deliver high-quality solutions.`;
@@ -38,6 +38,20 @@ export const ABOUT_TEXT = `I am Neeraj Chandra Nakka, a recent Computer Science 
 
 export const PROJECTS = [
   {
+    title: 'My Portfolio',
+    image: portfolio,
+    description:
+      'Dynamic React portfolio showcasing my projects with sleek Tailwind CSS design, Framer Motion animations, and seamless routing. User-centric error handling ensures a smooth browsing experience. Connect with me through the contact section for inquiries.',
+    technologies: [
+      'Tailwind Css',
+      'React.js',
+      'React Router Dom',
+      'Framer Motion',
+    ],
+    githubLink: 'https://github.com/neerajnakka/PortFolio_React/tree/master',
+    websiteLink: 'https://neerajnakka.netlify.app/',
+  },
+  {
     title: 'Qrispy: Responsive Restaurant Website',
     image: qrispyImage,
     description:
@@ -54,6 +68,7 @@ export const PROJECTS = [
     githubLink: 'https://github.com/neerajnakka/QrispyWithBootStrap',
     websiteLink: 'https://qrispybyneeraj.netlify.app/',
   },
+
   {
     title: 'Kreatives: Website Builder Site',
     image: kreativesImage,
