@@ -1,6 +1,7 @@
 import qrispyImage from '../src/assets/projects/qrispy.png';
 import kreativesImage from '../src/assets/projects/kreatives.png';
 import portfolio from '../src/assets/projects/po.png';
+import Netflix from '../src/assets/projects/Netflix.png';
 export const HERO_CONTENT = `As a passionate full-stack developer, I thrive on crafting robust and scalable web applications. With a solid foundation in both front-end and back-end technologies, including React, Next.js, Node.js, Express, MySQL, and MongoDB, I am dedicated to creating innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am Neeraj Chandra Nakka, a recent Computer Science graduate from CVR College of Engineering in Hyderabad, India. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. When I'm not coding, you can find me immersed in novels, listening to music, or indulging in my passion for gardening. I believe in the power of collaboration and enjoy solving complex problems to deliver high-quality solutions.`;
@@ -38,12 +39,21 @@ export const ABOUT_TEXT = `I am Neeraj Chandra Nakka, a recent Computer Science 
 
 export const PROJECTS = [
   {
+    title: 'Netflix Clone using React',
+    image: Netflix,
+    description:
+      'Built a Netflix clone with React, Tailwind CSS, and Firebase. Integrated React Router for seamless navigation and Firebase for authentication, data storage, and protected routing.',
+    technologies: ['React', 'Tailwind CSS', 'Firebase'],
+    githubLink: 'https://github.com/neerajnakka/NetflixReact_Clone',
+    websiteLink: 'https://netflixbyneeraj.netlify.app/',
+  },
+  {
     title: 'My Portfolio',
     image: portfolio,
     description:
       'Dynamic React portfolio showcasing my projects with sleek Tailwind CSS design, Framer Motion animations, and seamless routing. User-centric error handling ensures a smooth browsing experience. Connect with me through the contact section for inquiries.',
     technologies: [
-      'Tailwind Css',
+      'Tailwind CSS',
       'React.js',
       'React Router Dom',
       'Framer Motion',
