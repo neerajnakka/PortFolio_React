@@ -45,7 +45,7 @@ export const PROJECTS = [
       'Built a Netflix clone with React, Tailwind CSS, and Firebase. Integrated React Router for seamless navigation and Firebase for authentication, data storage, and protected routing.',
     technologies: ['React', 'Tailwind CSS', 'Firebase'],
     githubLink: 'https://github.com/neerajnakka/NetflixReact_Clone',
-    websiteLink: 'https://netflixbyneeraj.netlify.app/',
+    websiteLink: 'https://netflix-clone-wi5g.onrender.com/',
   },
   {
     title: 'My Portfolio',
