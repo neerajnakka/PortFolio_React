@@ -59,7 +59,7 @@ export const PROJECTS = [
       'Framer Motion',
     ],
     githubLink: 'https://github.com/neerajnakka/PortFolio_React/tree/master',
-    websiteLink: 'https://neerajnakka.netlify.app/',
+    websiteLink: 'https://neerajnakka.onrender.com/',
   },
   {
     title: 'Qrispy: Responsive Restaurant Website',
