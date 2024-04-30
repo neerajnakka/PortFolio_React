@@ -2,6 +2,7 @@ import qrispyImage from '../src/assets/projects/qrispy.png';
 import kreativesImage from '../src/assets/projects/kreatives.png';
 import portfolio from '../src/assets/projects/po.png';
 import Netflix from '../src/assets/projects/Netflix.png';
+import Chat from '../src/assets/projects/ChatApp.png';
 export const HERO_CONTENT = `As a passionate full-stack developer, I thrive on crafting robust and scalable web applications. With a solid foundation in both front-end and back-end technologies, including React, Next.js, Node.js, Express, MySQL, and MongoDB, I am dedicated to creating innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am Neeraj Chandra Nakka, a recent Computer Science graduate from CVR College of Engineering in Hyderabad, India. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. When I'm not coding, you can find me immersed in novels, listening to music, or indulging in my passion for gardening. I believe in the power of collaboration and enjoy solving complex problems to deliver high-quality solutions.`;
@@ -38,6 +39,32 @@ export const ABOUT_TEXT = `I am Neeraj Chandra Nakka, a recent Computer Science 
 // ];
 
 export const PROJECTS = [
+  {
+    title: 'Realtime Chat App using MERN Stack',
+    image: Chat,
+    description: `Developed a realtime chat application using the MERN (MongoDB, Express, 
+React, Node.js) stack. The backend was built with Node.js and Express, 
+providing robust RESTful APIs for user authentication and message 
+handling. Implemented custom hooks and Zustand for efficient state 
+management in the React frontend, enabling seamless user interactions. 
+Utilized Socket.IO for real-time communication between users, 
+facilitating instant messaging functionality. Additionally, incorporated
+ protected routing to ensure secure access to different features of the 
+application. Tailwind CSS was used for styling, delivering a modern 
+and responsive user interface.`,
+    technologies: [
+      'React',
+      'Node',
+      'Express',
+      'MongoDB',
+      'Tailwind CSS',
+      'Socket.IO',
+      'Zustand',
+    ],
+    githubLink: 'https://github.com/neerajnakka/Mern_ChatApp',
+    websiteLink: 'https://mern-chatapp-rfj5.onrender.com/',
+  },
+
   {
     title: 'Netflix Clone using React',
     image: Netflix,
