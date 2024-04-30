@@ -2,7 +2,6 @@ import qrispyImage from '../src/assets/projects/qrispy.png';
 import kreativesImage from '../src/assets/projects/kreatives.png';
 import portfolio from '../src/assets/projects/po.png';
 import Netflix from '../src/assets/projects/Netflix.png';
-import Chat from '../src/assets/projects/ChatApp.png';
 export const HERO_CONTENT = `As a passionate full-stack developer, I thrive on crafting robust and scalable web applications. With a solid foundation in both front-end and back-end technologies, including React, Next.js, Node.js, Express, MySQL, and MongoDB, I am dedicated to creating innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am Neeraj Chandra Nakka, a recent Computer Science graduate from CVR College of Engineering in Hyderabad, India. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. When I'm not coding, you can find me immersed in novels, listening to music, or indulging in my passion for gardening. I believe in the power of collaboration and enjoy solving complex problems to deliver high-quality solutions.`;
@@ -10,61 +9,14 @@ export const ABOUT_TEXT = `I am Neeraj Chandra Nakka, a recent Computer Science 
 // export const EXPERIENCES = [
 //   {
 //     year: '2023 - Present',
-//     role: 'Senior Full Stack Developer',
-//     company: 'Google Inc.',
-//     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+//     role: ' Full Stack Developer',
+//     company: '',
+//     description: ``,
 //     technologies: ['Javascript', 'React.js', 'Next.js', 'mongoDB'],
-//   },
-//   {
-//     year: '2022 - 2023',
-//     role: 'Frontend Developer',
-//     company: 'Adobe',
-//     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-//     technologies: ['HTML', 'CSS', 'Vue.js', 'mySQL'],
-//   },
-//   {
-//     year: '2021 - 2022',
-//     role: 'Full Stack Developer',
-//     company: 'Facebook',
-//     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-//     technologies: ['Python', 'Svelte', 'Three.js', 'Postgres'],
-//   },
-//   {
-//     year: '2020 - 2021',
-//     role: 'Software Engineer',
-//     company: 'Paypal',
-//     description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-//     technologies: ['Ruby', 'Rails', 'PHP', 'Sqlite'],
 //   },
 // ];
 
 export const PROJECTS = [
-  {
-    title: 'Realtime Chat App using MERN Stack',
-    image: Chat,
-    description: `Developed a realtime chat application using the MERN (MongoDB, Express, 
-React, Node.js) stack. The backend was built with Node.js and Express, 
-providing robust RESTful APIs for user authentication and message 
-handling. Implemented custom hooks and Zustand for efficient state 
-management in the React frontend, enabling seamless user interactions. 
-Utilized Socket.IO for real-time communication between users, 
-facilitating instant messaging functionality. Additionally, incorporated
- protected routing to ensure secure access to different features of the 
-application. Tailwind CSS was used for styling, delivering a modern 
-and responsive user interface.`,
-    technologies: [
-      'React',
-      'Node',
-      'Express',
-      'MongoDB',
-      'Tailwind CSS',
-      'Socket.IO',
-      'Zustand',
-    ],
-    githubLink: 'https://github.com/neerajnakka/Mern_ChatApp',
-    websiteLink: 'https://mern-chatapp-rfj5.onrender.com/',
-  },
-
   {
     title: 'Netflix Clone using React',
     image: Netflix,
@@ -72,7 +24,7 @@ and responsive user interface.`,
       'Built a Netflix clone with React, Tailwind CSS, and Firebase. Integrated React Router for seamless navigation and Firebase for authentication, data storage, and protected routing.',
     technologies: ['React', 'Tailwind CSS', 'Firebase'],
     githubLink: 'https://github.com/neerajnakka/NetflixReact_Clone',
-    websiteLink: 'https://netflixbyneeraj.netlify.app/',
+    websiteLink: 'https://netflix-clone-wi5g.onrender.com/',
   },
   {
     title: 'My Portfolio',
@@ -86,7 +38,7 @@ and responsive user interface.`,
       'Framer Motion',
     ],
     githubLink: 'https://github.com/neerajnakka/PortFolio_React/tree/master',
-    websiteLink: 'https://neerajnakka.netlify.app/',
+    websiteLink: 'https://neerajnakka.onrender.com/',
   },
   {
     title: 'Qrispy: Responsive Restaurant Website',
